@@ -1,6 +1,6 @@
 # What is this?
 
-A repository where I'll solve all the puzzles from (advent of code)[https://adventofcode.com/].
+A repository where I'll solve all the puzzles from [advent of code](https://adventofcode.com/).
 
 ## How are you gonna make it?
 
