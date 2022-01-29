@@ -46,3 +46,44 @@ How many measurements are larger than the previous measurement?
 ---
 
 # My solution:
+
+This exercise was more challenging when I was understanding the problem than when I was implementing the solution, the first part pretty easy. I almost use two nested `if` but I remembered about a book that I readed that complains about redundant `if` , something like
+
+this:
+
+    ```js
+      if (true) {
+        if (true) {
+
+        }
+      }
+    ```
+
+is equal to this:
+
+    ```js
+      if (true && true) {
+
+      }
+    ```
+
+Although I knew this trick above, when I was refactoring the method it was more easy and clean to read this condition:
+
+```
+  if ($index > 0) {
+    $currentSweepIsDeeper = $sweepList[$index] > $sweepList[$index - 1];
+    if ($currentSweepIsDeeper) $timesIncreased += 1;
+  }
+```
+
+than this condition (IMHO :P):
+
+```
+  if ($index > 0 && ($sweepList[$index] > $sweepList[$index - 1])) {
+    $timesIncreased += 1;
+  }
+```
+
+In the end of the day, the first challenge was just a simple count, so I had no trouble in creating this method.
+
+The second part was easy as well, the only thing that had me thinking for a second was the `if ($index >= 3)`, I instinctively thought about this condition but I stopped and said "well, why 3?" and then I had to prove to myself that I had to start the comparison at index 3 instead of any other index.

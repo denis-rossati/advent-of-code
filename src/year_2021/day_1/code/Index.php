@@ -8,8 +8,9 @@ class Index
   {
     $timesIncreased = 0;
     for($index = 0; $index < count($sweepList); $index += 1) {
-      if ($index > 0 && ($sweepList[$index] > $sweepList[$index - 1])) {
-        $timesIncreased += 1;
+      if ($index > 0) {
+        $currentSweepIsDeeper = $sweepList[$index] > $sweepList[$index - 1];
+        if ($currentSweepIsDeeper) $timesIncreased += 1;
       }
     }
     return $timesIncreased;
@@ -22,12 +23,11 @@ class Index
       if ($index >= 3) {
 
         $currentSweep = $sweepList[$index];
-        $secondSweep = $sweepList[$index - 1];
-        $thirdSweep = $sweepList[$index - 2];
+        $middleSweep = $sweepList[$index - 1] + $sweepList[$index - 2];
         $fourthSweep = $sweepList[$index - 3];
 
-        $currentSlidingWindow = $currentSweep + $secondSweep + $thirdSweep;
-        $previousSlidingWindow = $secondSweep + $thirdSweep + $fourthSweep;
+        $currentSlidingWindow = $currentSweep + $middleSweep;
+        $previousSlidingWindow = $middleSweep + $fourthSweep;
 
         if ($currentSlidingWindow > $previousSlidingWindow) $timesIncreased += 1;
       }
