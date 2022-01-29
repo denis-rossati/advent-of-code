@@ -1,0 +1,19 @@
+{
+    "name": "denis/advent-of-code",
+    "description": "A repo where I'll solve all advent of code challenges!",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Denis\\AdventOfCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis Rossati Ramos",
+            "email": "denis.rossatiramos@gmail.com"
+        }
+    ]
+}
