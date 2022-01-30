@@ -69,6 +69,8 @@ I thinked about creating two variables that would store the horizontal position 
 
 The last idea, actually was the first of them all (I was just lazy to make it in the first sight), the idea was to run through the array and slice the string to get a direction input and a value and store in one of the two variables from before. For me this is a good idea because for each input, I would run through it just one time (O(n) complexity) and I could not dismiss any element in the list to make the complexity less than that (maybe O(log n), for example?), so this was the most aceptable idea, for me.
 
+(Obviously, I may've been wrong about the big O notation, I'm not an expert :( )
+
 ### Part two
 
 My english is a bit rusty, there is a few steps before I start to say that I can understand >everything< easily. This was my problem in this day, because I was a bit tired and my english was already all wasted, so I had some problems in understanding some phrases, but everything was just fine, because all I had to do in the part two was add two variables and mathematically modify them in each `if`, no big deal :D
