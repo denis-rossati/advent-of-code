@@ -42,4 +42,17 @@ Use the binary numbers in your diagnostic report to calculate the gamma rate and
 
 ## My solution:
 
-I already did a binary decoder [right here](), so the first part was pretty easy >:) .
+31/01/2022
+
+I already did a binary decoder [right here](https://github.com/denis-rossati/binary-to-decimal-project), so the first part was pretty easy >:)
+
+
+-------------------
+
+05/02/2022
+
+I'm inconsolable, My filter of binaries doesn't work, FOR ANY REASON. I've don't even know anymore why. 
+
+Estou coringando.
+
+I'm going to day 4, when I get to 25 I come back here and show this problem a lesson.
