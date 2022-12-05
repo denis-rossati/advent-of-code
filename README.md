@@ -4,7 +4,7 @@ A repository where I'll solve all the puzzles from [advent of code](https://adve
 
 ## How are you gonna make it?
 
-through studies, persistence and PHP. With unit tests and etc.
+With hope.
 
 Wish me luck!
 
