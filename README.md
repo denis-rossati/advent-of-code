@@ -12,6 +12,6 @@ Wish me luck!
 
 The file schema will be like
 
-`src->[year]->[day]->code`
+`year->day->code`
 
 Each day will have a README with the problem description and a brief (or not) explanation about my thought line.
