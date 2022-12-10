@@ -52,4 +52,6 @@ Second part... That elf is a cunt
 
 Anyway, still easy, we just need to get rid of the equivalence map and invert some conditions for winning, tying and losing. Actually, it's easier to calculate the score after here, maybe because I already did half of the job at this point.
 
+Obs: Yeah, I basically hard coded the maps and if I had two or more possibilities of moves, I would be screwed. But these new moves doesn't exist, so I don't need to worry
 
+When they release paper rock scissors 2, I'll create a new solution :)
