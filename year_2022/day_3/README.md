@@ -42,4 +42,4 @@ For the first problem, I started thinking that after I transform the items in pr
 
 So I just used the built-in PHP functions like search, map and etc...
 
-The second puzzle is easier if you use built-in functions too.  
+The second puzzle is easy too if you use built-in functions too. You just find a common letter in the three ruckpacks. I got an acceptable time complexity of O(n) for each group of three elves (desconsidering the first foreach).
